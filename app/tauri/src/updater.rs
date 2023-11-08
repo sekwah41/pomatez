@@ -51,7 +51,7 @@ impl PomatezUpdater for App {
             let latest_release = response.json::<LatestRelease>().await.expect("Failed to parse latest release response");
 
             // Find an asset named "tauri-release.json".
-            let tauri_release_asset = latest_release.assets.iter().find(|asset| asset.name == "tauri-release.json");
+            let tauri_release_asset = latest_release.assets.iter().find(|asset| asset.name == "tauri-updater.json");
 
             // If we found the asset, set it as the updater endpoint.
             let tauri_release_asset = match tauri_release_asset {
