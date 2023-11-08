@@ -98,17 +98,17 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: tauri-win
-          path: artifacts
+          path: artifacts/tauri-win
       - name: Download Mac
         uses: actions/download-artifact@v3
         with:
           name: tauri-mac
-          path: artifacts
+          path: artifacts/tauri-mac
       - name: Download Linux
         uses: actions/download-artifact@v3
         with:
           name: tauri-linux
-          path: artifacts
+          path: artifacts/tauri-linux
       - name: Use Node.js 18.x
         uses: actions/setup-node@v3
         with:
