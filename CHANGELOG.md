@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/sekwah41/pomatez/compare/v1.4.1...v1.4.2) (2023-11-08)
+
+
+### Bug Fixes 🐛
+
+* release folder ([f427325](https://github.com/sekwah41/pomatez/commit/f427325788f9e5236e5a0b1f3041c469f36d1941))
+
 ## [1.4.1](https://github.com/sekwah41/pomatez/compare/v1.4.0...v1.4.1) (2023-11-08)
 
 
