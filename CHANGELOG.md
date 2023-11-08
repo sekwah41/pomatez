@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.3](https://github.com/sekwah41/pomatez/compare/v1.4.2...v1.4.3) (2023-11-08)
+
+
+### Bug Fixes 🐛
+
+* artifacts downloading to the wrong location ([952b56a](https://github.com/sekwah41/pomatez/commit/952b56a1ebcc9379a4f06786f65feeb3b95d2cbe))
+
 ## [1.4.2](https://github.com/sekwah41/pomatez/compare/v1.4.1...v1.4.2) (2023-11-08)
 
 
