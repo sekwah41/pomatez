@@ -58,7 +58,7 @@ jobs:
             built-*/*.exe
             built-*/*.snap
             built-*/*.blockmap
-            tauri-release/release/*
+            tauri-release/*
 
 # Commented out just for test releases
 #  publish-to-homebrew-cask:
