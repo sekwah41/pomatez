@@ -96,9 +96,6 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           path: artifacts
-      - name: Display structure of downloaded files
-        shell: bash
-        run: ls -R
       - name: Use Node.js 18.x
         uses: actions/setup-node@v3
         with:
