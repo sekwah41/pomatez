@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.4](https://github.com/sekwah41/pomatez/compare/v1.4.3...v1.4.4) (2023-11-08)
+
+
+### Bug Fixes 🐛
+
+* updater link name ([9ed38a0](https://github.com/sekwah41/pomatez/commit/9ed38a0c471118d233c0d5b85e7419da1a0658d4))
+
 ## [1.4.3](https://github.com/sekwah41/pomatez/compare/v1.4.2...v1.4.3) (2023-11-08)
 
 
