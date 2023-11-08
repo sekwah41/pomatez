@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/sekwah41/pomatez/compare/v1.4.0...v1.4.1) (2023-11-08)
+
+
+### Bug Fixes 🐛
+
+* huge artifacts ([85cc2b6](https://github.com/sekwah41/pomatez/commit/85cc2b606980ba4fce51cda7bdf06a98b8fd9587))
+
 ## [1.4.0](https://github.com/sekwah41/pomatez/compare/v1.3.1...v1.4.0) (2023-11-08)
 
 
