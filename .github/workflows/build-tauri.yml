@@ -34,7 +34,11 @@ jobs:
             # The only real added benefit of NSIS is that the installer can have a custom logo.
             # Also, nsis is the only one that currently works on arm64
             # Another note is embedBootstrapper is enabled to improve support on window 7. Though windows 7 doesn't support arm64.
-            tauri_target: ["'aarch64-pc-windows-msvc --bundles nsis,updater'", "'x86_64-pc-windows-msvc --bundles msi,updater'"]
+            tauri_target:
+              [
+                "'aarch64-pc-windows-msvc --bundles nsis,updater'",
+                "'x86_64-pc-windows-msvc --bundles msi,updater'",
+              ]
 
     steps:
       - uses: actions/checkout@v4
@@ -50,7 +54,7 @@ jobs:
       - name: Rust cache
         uses: swatinem/rust-cache@v2
         with:
-          workspaces: './app/tauri -> target'
+          workspaces: "./app/tauri -> target"
       - name: install dependencies (ubuntu only)
         if: matrix.os == 'ubuntu-22.04'
         run: |
