@@ -2,61 +2,55 @@
 
 ## [1.4.4](https://github.com/sekwah41/pomatez/compare/v1.4.3...v1.4.4) (2023-11-08)
 
-
 ### Bug Fixes 🐛
 
-* updater link name ([9ed38a0](https://github.com/sekwah41/pomatez/commit/9ed38a0c471118d233c0d5b85e7419da1a0658d4))
+- updater link name ([9ed38a0](https://github.com/sekwah41/pomatez/commit/9ed38a0c471118d233c0d5b85e7419da1a0658d4))
 
 ## [1.4.3](https://github.com/sekwah41/pomatez/compare/v1.4.2...v1.4.3) (2023-11-08)
 
-
 ### Bug Fixes 🐛
 
-* artifacts downloading to the wrong location ([952b56a](https://github.com/sekwah41/pomatez/commit/952b56a1ebcc9379a4f06786f65feeb3b95d2cbe))
+- artifacts downloading to the wrong location ([952b56a](https://github.com/sekwah41/pomatez/commit/952b56a1ebcc9379a4f06786f65feeb3b95d2cbe))
 
 ## [1.4.2](https://github.com/sekwah41/pomatez/compare/v1.4.1...v1.4.2) (2023-11-08)
 
-
 ### Bug Fixes 🐛
 
-* release folder ([f427325](https://github.com/sekwah41/pomatez/commit/f427325788f9e5236e5a0b1f3041c469f36d1941))
+- release folder ([f427325](https://github.com/sekwah41/pomatez/commit/f427325788f9e5236e5a0b1f3041c469f36d1941))
 
 ## [1.4.1](https://github.com/sekwah41/pomatez/compare/v1.4.0...v1.4.1) (2023-11-08)
 
-
 ### Bug Fixes 🐛
 
-* huge artifacts ([85cc2b6](https://github.com/sekwah41/pomatez/commit/85cc2b606980ba4fce51cda7bdf06a98b8fd9587))
+- huge artifacts ([85cc2b6](https://github.com/sekwah41/pomatez/commit/85cc2b606980ba4fce51cda7bdf06a98b8fd9587))
 
 ## [1.4.0](https://github.com/sekwah41/pomatez/compare/v1.3.1...v1.4.0) (2023-11-08)
 
-
 ### Features ✨
 
-* add base tauri app ([f1ee205](https://github.com/sekwah41/pomatez/commit/f1ee205cf010e6403ef4781295c14c98a1978ee4))
-* make tauri version draggable ([bf891c5](https://github.com/sekwah41/pomatez/commit/bf891c5d7d2f4ca546943e7d1ebd68902973e33b))
-* restructure connector in a way that allows easy switching out for platforms ([f4d8d77](https://github.com/sekwah41/pomatez/commit/f4d8d7714781e72f13b36b2231d0b5a7fdf390a1))
-* **tauri:** add base connector with placeholders for logging ([67cb272](https://github.com/sekwah41/pomatez/commit/67cb272172337952f3c0f9e98554af45fab298c0))
-* **tauri:** add closing logic ([f57caa0](https://github.com/sekwah41/pomatez/commit/f57caa005debd0aa78271c5f639f117b65e092c3))
-* **tauri:** add easy command interface for frontend -&gt; backend ([69bab00](https://github.com/sekwah41/pomatez/commit/69bab0008b962a81d7908a4f9118d30b060f02fb))
-* **tauri:** add global show and hide shortcuts as well as block reload ([d17b63d](https://github.com/sekwah41/pomatez/commit/d17b63d66abe19ef01a1dc000d1d6bdca7515611))
-* **tauri:** add tray icon updating and a number of other commands ([dadf80f](https://github.com/sekwah41/pomatez/commit/dadf80f2ec9b6e1860021a33c5d99da83b011601))
-* **tauri:** added connection hooks for all of the base tauri commands ([a325e0b](https://github.com/sekwah41/pomatez/commit/a325e0be081e1958a16760146baaa128cda85f13))
-* **tauri:** always on top command ([f8c3cea](https://github.com/sekwah41/pomatez/commit/f8c3cea292aae4bae75f9c07a7b54bd4fbf625ef))
-* **tauri:** auto updater ([dd1bf65](https://github.com/sekwah41/pomatez/commit/dd1bf652eeda0929cb1601c71ad5526f0c46f54d))
-* **tauri:** compact mode resizing ([76ace97](https://github.com/sekwah41/pomatez/commit/76ace97c75875d0e15bf67902fc6c366d554e52b))
-* **tauri:** debug menu in dev mode ([f1f4fc2](https://github.com/sekwah41/pomatez/commit/f1f4fc257b87a028a8d161a16de153c1ff5fb65e))
-* **tauri:** full screen mode ([ba75f3d](https://github.com/sekwah41/pomatez/commit/ba75f3dcdee4afae1d30295a58a302feacd0e921))
-* **tauri:** improve installer ([0b3df63](https://github.com/sekwah41/pomatez/commit/0b3df63371f4f323ea61e921ce1ca8734ce07cf6))
-* **tauri:** pass the data from the frontend  into the commands ([2e8faf9](https://github.com/sekwah41/pomatez/commit/2e8faf9841d09db74e783b356d6ca14a94340ee6))
-
+- add base tauri app ([f1ee205](https://github.com/sekwah41/pomatez/commit/f1ee205cf010e6403ef4781295c14c98a1978ee4))
+- make tauri version draggable ([bf891c5](https://github.com/sekwah41/pomatez/commit/bf891c5d7d2f4ca546943e7d1ebd68902973e33b))
+- restructure connector in a way that allows easy switching out for platforms ([f4d8d77](https://github.com/sekwah41/pomatez/commit/f4d8d7714781e72f13b36b2231d0b5a7fdf390a1))
+- **tauri:** add base connector with placeholders for logging ([67cb272](https://github.com/sekwah41/pomatez/commit/67cb272172337952f3c0f9e98554af45fab298c0))
+- **tauri:** add closing logic ([f57caa0](https://github.com/sekwah41/pomatez/commit/f57caa005debd0aa78271c5f639f117b65e092c3))
+- **tauri:** add easy command interface for frontend -&gt; backend ([69bab00](https://github.com/sekwah41/pomatez/commit/69bab0008b962a81d7908a4f9118d30b060f02fb))
+- **tauri:** add global show and hide shortcuts as well as block reload ([d17b63d](https://github.com/sekwah41/pomatez/commit/d17b63d66abe19ef01a1dc000d1d6bdca7515611))
+- **tauri:** add tray icon updating and a number of other commands ([dadf80f](https://github.com/sekwah41/pomatez/commit/dadf80f2ec9b6e1860021a33c5d99da83b011601))
+- **tauri:** added connection hooks for all of the base tauri commands ([a325e0b](https://github.com/sekwah41/pomatez/commit/a325e0be081e1958a16760146baaa128cda85f13))
+- **tauri:** always on top command ([f8c3cea](https://github.com/sekwah41/pomatez/commit/f8c3cea292aae4bae75f9c07a7b54bd4fbf625ef))
+- **tauri:** auto updater ([dd1bf65](https://github.com/sekwah41/pomatez/commit/dd1bf652eeda0929cb1601c71ad5526f0c46f54d))
+- **tauri:** compact mode resizing ([76ace97](https://github.com/sekwah41/pomatez/commit/76ace97c75875d0e15bf67902fc6c366d554e52b))
+- **tauri:** debug menu in dev mode ([f1f4fc2](https://github.com/sekwah41/pomatez/commit/f1f4fc257b87a028a8d161a16de153c1ff5fb65e))
+- **tauri:** full screen mode ([ba75f3d](https://github.com/sekwah41/pomatez/commit/ba75f3dcdee4afae1d30295a58a302feacd0e921))
+- **tauri:** improve installer ([0b3df63](https://github.com/sekwah41/pomatez/commit/0b3df63371f4f323ea61e921ce1ca8734ce07cf6))
+- **tauri:** pass the data from the frontend into the commands ([2e8faf9](https://github.com/sekwah41/pomatez/commit/2e8faf9841d09db74e783b356d6ca14a94340ee6))
 
 ### Bug Fixes 🐛
 
-* **tauri:** allow context menu on list titles ([efc7bd2](https://github.com/sekwah41/pomatez/commit/efc7bd28623c75d7791d638f8779dc4ed868573b))
-* **tauri:** catch audio playing errors gracefully ([90d662a](https://github.com/sekwah41/pomatez/commit/90d662ab4a0cee61d6e3020ef4a465a18b49f272))
-* **tauri:** fullscreen break being resizeable ([391f5b5](https://github.com/sekwah41/pomatez/commit/391f5b51c397e82db72f7f2f11483f460c0f73cd))
-* **tauri:** update to tauri v2 (fixes audio) ([8d5a273](https://github.com/sekwah41/pomatez/commit/8d5a2739f0fd4e2b3da29b6330f07a66f472756f))
+- **tauri:** allow context menu on list titles ([efc7bd2](https://github.com/sekwah41/pomatez/commit/efc7bd28623c75d7791d638f8779dc4ed868573b))
+- **tauri:** catch audio playing errors gracefully ([90d662a](https://github.com/sekwah41/pomatez/commit/90d662ab4a0cee61d6e3020ef4a465a18b49f272))
+- **tauri:** fullscreen break being resizeable ([391f5b5](https://github.com/sekwah41/pomatez/commit/391f5b51c397e82db72f7f2f11483f460c0f73cd))
+- **tauri:** update to tauri v2 (fixes audio) ([8d5a273](https://github.com/sekwah41/pomatez/commit/8d5a2739f0fd4e2b3da29b6330f07a66f472756f))
 
 ## [1.3.1](https://github.com/zidoro/pomatez/compare/v1.3.0...v1.3.1) (2023-10-19)
 
