@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/sekwah41/pomatez/compare/v1.4.4...v1.5.0) (2023-11-11)
+
+
+### Features ✨
+
+* **tauri:** updater window ([b2345f9](https://github.com/sekwah41/pomatez/commit/b2345f982c35daa8238ec76b74e81a223ee5cd46))
+
 ## [1.4.4](https://github.com/sekwah41/pomatez/compare/v1.4.3...v1.4.4) (2023-11-08)
 
 ### Bug Fixes 🐛
