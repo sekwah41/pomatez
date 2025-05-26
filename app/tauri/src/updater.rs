@@ -1,6 +1,7 @@
 use serde::{Deserialize, Serialize};
 use std::sync::Mutex;
 use tauri::{Manager, Runtime};
+use tauri::utils::config::Updater;
 use tauri_plugin_updater::{Update, UpdaterExt};
 use url::Url;
 
@@ -28,7 +29,9 @@ struct UpdateAvailable {
 pub fn check_for_updates<R: Runtime>(ignore_version: String, window: tauri::Window<R>) {
     let handle = window.app_handle().clone();
 
-    if !handle.config().tauri.bundle.updater.active {
+    let update_artifacts = handle.config().bundle.create_updater_artifacts;
+    if update_artifacts.downcast_ref::<Updater>().is_none() {
+        println!("Updater is not configured, skipping update check.");
         return;
     }
 
